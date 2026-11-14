@@ -136,3 +136,10 @@ describe("link filter", () => {
     expect(cleanDescription("Wazuh decoders, contact me at eve@evil.example for more")).toBe("Wazuh decoders, contact me at for more.");
   });
 });
+
+describe("fixed ambassador entries", () => {
+  test("lines are valid list entries", async () => {
+    const { EXTRA_AMBASSADORS } = await import("./update");
+    for (const a of EXTRA_AMBASSADORS) expect(a.line).toMatch(/^- \[[^\]]+\]\(https:\/\/[^)]+\) - [A-Z].*\.$/);
+  });
+});

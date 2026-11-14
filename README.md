@@ -320,10 +320,11 @@ Practitioners recognized by Wazuh for publishing guides, tools, videos and talks
 
 ### Ambassador Blogs
 
-Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom. Posts published only on LinkedIn or YouTube are linked from the newsroom above.
+Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus ambassadors whose blogs are not featured there. Posts published only on LinkedIn or YouTube are linked from the newsroom above.
 
 <!-- ambassadors:begin -->
 - [Abdelmlak Said](https://medium.com/@abdelmlaksaid) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
+- [Adam Pielak](https://wazuh.blog/en/about/) - Blog at wazuh.blog, in Polish and English.
 - [Aditya Jaishi](https://medium.com/@jaishiaditya2000) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Ahmed Abbes](https://medium.com/@ahmedabbes832) - Medium profile, 4 articles featured in the Wazuh Ambassadors newsroom.
 - [Ahmed Abdelrazek](https://medium.com/@ahmed.abdelrazek.1) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.

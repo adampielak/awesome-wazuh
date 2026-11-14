@@ -245,7 +245,14 @@ async function checkListed(listed: string[]) {
 const AMB_BEGIN = "<!-- ambassadors:begin -->";
 const AMB_END = "<!-- ambassadors:end -->";
 // Social networks and video platforms are covered by the newsroom link, not listed as blogs.
-const NOT_A_BLOG = /(^|\.)(linkedin\.com|youtube\.com|youtu\.be|github\.com|asciinema\.org|aur\.archlinux\.org|twitter\.com|x\.com|facebook\.com|instagram\.com|security-insider\.de|faun\.pub|systemweakness\.com|infosecwriteups\.com)$/;
+// Ambassadors whose blogs are not featured in the newsroom, always listed.
+// The key matches the newsroom grouping (host or medium:user), so a later
+// newsroom entry for the same blog replaces the fixed line.
+const EXTRA_AMBASSADORS = [
+  { key: "wazuh.blog", name: "Adam Pielak", line: "- [Adam Pielak](https://wazuh.blog/en/about/) - Blog at wazuh.blog, in Polish and English." },
+];
+
+const NOT_A_BLOG =/(^|\.)(linkedin\.com|youtube\.com|youtu\.be|github\.com|asciinema\.org|aur\.archlinux\.org|twitter\.com|x\.com|facebook\.com|instagram\.com|security-insider\.de|faun\.pub|systemweakness\.com|infosecwriteups\.com)$/;
 
 const PRIVATE_IP = /^(0\.|10\.|127\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\.|::1$|::$|f[cd]|fe[89ab]|::ffff:)/i;
 
@@ -335,6 +342,8 @@ async function ambassadorBlogs(): Promise<string[] | null> {
     const count = b.n === 1 ? "1 article" : `${b.n} articles`;
     rows.push({ name, line: `- [${name}](${b.home}) - ${where === "Medium" ? "Medium profile" : `Blog at ${where}`}, ${count} featured in the Wazuh Ambassadors newsroom.` });
   }
+  for (const a of EXTRA_AMBASSADORS)
+    if (!blogs.has(a.key)) rows.push({ name: a.name, line: a.line });
   rows.sort((x, y) => x.name.localeCompare(y.name, "en"));
   return rows.map((r) => r.line);
 }
@@ -406,6 +415,6 @@ if (md !== md0 && !args["dry-run"]) await Bun.write(README, md);
 console.log(JSON.stringify(summary, null, 2));
 }
 
-export { safeName, isPublicHost, isOffensive, cleanDescription, route, insertionLine, listedRepos };
+export { EXTRA_AMBASSADORS, safeName, isPublicHost, isOffensive, cleanDescription, route, insertionLine, listedRepos };
 
 if (import.meta.main) await main();

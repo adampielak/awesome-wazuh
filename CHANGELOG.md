@@ -10,3 +10,7 @@
 - scripts/update.ts with tests: daily health check, discovery of new repositories, ambassador blogs.
 - deploy/: daily job, systemd user units and installer.
 - 51 community repositories added from the first discovery run, reviewed by hand.
+
+## 2026-11-14 (2)
+
+- Adam Pielak (wazuh.blog) added to Ambassador Blogs as a fixed entry in scripts/update.ts (EXTRA_AMBASSADORS), not featured in the newsroom.
