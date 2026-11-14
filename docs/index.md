@@ -179,9 +179,9 @@ See [Compliance Guide](./compliance.md) for detailed information.
 - 📞 Contact [professional support](https://wazuh.com/services/professional-support/)
 
 ### Other Questions
-- 🐛 [GitHub Issues](https://github.com/francotampieri/awesome-wazuh/issues)
+- 🐛 [GitHub Issues](https://github.com/adampielak/awesome-wazuh/issues)
 - 💼 [Professional Services](https://wazuh.com/services/consulting-services/)
-- 📧 Contact: franco.tampieri@ttlab.it
+- 📧 Contact: tick@wazuh.blog
 
 ---
 
@@ -220,29 +220,9 @@ See [Compliance Guide](./compliance.md) for detailed information.
 
 ## 🏢 About awesome-wazuh
 
-**Project**: awesome-wazuh
-**Created & Maintained By**: **TTlab®** - Security & DevOps Excellence
-**Author**: Franco Tampieri (CISO, MSP, DevOps Expert)
-**Organization**: [ttlab.it](https://ttlab.it/)
-**License**: MIT (Open Source)
+**Maintainer**: Adam Pielak ([@adampielak](https://github.com/adampielak)), tick@wazuh.blog
+**License**: MIT
 
-awesome-wazuh is a Wazuh community project created by TTlab® to provide curated resources, professional guides, and global support.
+Forked from [TTlab-Research/awesome-wazuh](https://github.com/TTlab-Research/awesome-wazuh), created by Franco Tampieri ([TTlab](https://ttlab.it/)).
 
----
-
-## 🤝 Open to Collaborations
-
-TTlab® collaborates with:
-
-- **Community Contributors** - Contribute to awesome-wazuh
-- **Strategic Partners** - B2B collaborations
-- **Educators** - Training programs
-- **Content Creators** - Guest posts, webinars
-- **Developers** - Custom integrations
-
-**Contact**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
-
----
-
-**Last Updated**: February 1, 2026
-**Maintained By**: TTlab® & Wazuh Community
+Questions and corrections: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues).

@@ -86,4 +86,4 @@ Curated links to official Wazuh deployment guides and community resources.
 ---
 
 **Last updated**: February 2, 2026
-**TTlab® Deployment Support**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
+**Questions and corrections**: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues)

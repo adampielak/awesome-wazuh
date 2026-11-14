@@ -81,4 +81,4 @@ Curated list of official and community integrations for alerting, ticketing, thr
 ---
 
 **Last updated**: February 2, 2026
-**TTlab® Integration Support**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
+**Questions and corrections**: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues)

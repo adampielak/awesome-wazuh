@@ -1,0 +1,10 @@
+# Repositories or owners skipped by the daily update (scripts/update.ts).
+# One entry per line: owner/repo or owner. Text after # is a comment.
+# Example:
+# someuser/wazuh-homework  # course assignment, not reusable
+# General-purpose projects that mention Wazuh only as one integration among many
+jasoncheng7115/jt-ipam
+KenyanRedwoods01/Orbit
+elliotsecops/Secure-Fortress-Linux
+alejadxr/AEGIS
+simovilab  # README holds only the repository name

@@ -46,7 +46,7 @@ Get started with Awesome Wazuh in 5 minutes.
 
 ```bash
 # 1. Clone/download this repository
-git clone https://github.com/francotampieri/awesome-wazuh.git
+git clone https://github.com/adampielak/awesome-wazuh.git
 cd awesome-wazuh
 
 # 2. Start the stack
@@ -231,9 +231,9 @@ Before deploying to production:
 
 **Issue**: Something else
 **Solution**:
-- GitHub Issues: [awesome-wazuh](https://github.com/francotampieri/awesome-wazuh/issues)
+- GitHub Issues: [awesome-wazuh](https://github.com/adampielak/awesome-wazuh/issues)
 - Wazuh Community: [slack, discord, reddit](https://wazuh.com/community/)
-- Email: franco.tampieri@ttlab.it
+- Email: tick@wazuh.blog
 
 ---
 

@@ -28,7 +28,7 @@
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **awesome-wazuh** | Curated resource list | [GitHub](https://github.com/francotampieri/awesome-wazuh) |
+| **awesome-wazuh** | Curated resource list | [GitHub](https://github.com/adampielak/awesome-wazuh) |
 | **Community Discussions** | Feature requests & ideas | [GitHub Discussions](https://github.com/wazuh/wazuh/discussions) |
 
 ---
@@ -115,7 +115,7 @@ See [CONTRIBUTORS.md](../../CONTRIBUTORS.md) for recognized contributors.
 Have a blog post, tutorial, or tool to share?
 
 1. **Post on community channels**: Slack, Discord, Reddit
-2. **Submit to awesome-wazuh**: Create PR on [GitHub](https://github.com/francotampieri/awesome-wazuh)
+2. **Submit to awesome-wazuh**: Create PR on [GitHub](https://github.com/adampielak/awesome-wazuh)
 3. **Contact Wazuh**: For official amplification via blog/social
 
 ---

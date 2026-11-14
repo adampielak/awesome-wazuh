@@ -64,4 +64,4 @@ Resources and opportunities for community ambassadors.
 ---
 
 **Last updated**: February 2, 2026
-**TTlab® Ambassador Program Support**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
+**Questions and corrections**: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues)

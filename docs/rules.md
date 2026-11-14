@@ -82,4 +82,4 @@ Curated links to rules repositories, detection guides, and community contributio
 ---
 
 **Last updated**: February 2, 2026
-**TTlab® Rules & Detection Support**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
+**Questions and corrections**: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues)

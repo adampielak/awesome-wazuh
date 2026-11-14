@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily update of the awesome-wazuh list
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/awesome-wazuh-bot/bin/run-daily.sh
+TimeoutStartSec=45min
+Nice=10

@@ -81,7 +81,7 @@ Guide to navigating official, third-party, and community resources in awesome-wa
 - Blog posts and videos
 
 ### Examples
-- [awesome-wazuh Repository](https://github.com/francotampieri/awesome-wazuh)
+- [awesome-wazuh Repository](https://github.com/adampielak/awesome-wazuh)
 - Community courses (Udemy, SIEM Intelligence, initMAX)
 - GitHub community discussions
 - Blog posts and articles
@@ -178,7 +178,7 @@ Are you learning or experimenting?
 ### Submit Community Content
 
 1. **Blog/tutorial**: Share on community channels
-2. **Plugin/tool**: Submit PR to [awesome-wazuh](https://github.com/francotampieri/awesome-wazuh)
+2. **Plugin/tool**: Submit PR to [awesome-wazuh](https://github.com/adampielak/awesome-wazuh)
 3. **Integration**: Document and share via [GitHub Discussions](https://github.com/wazuh/wazuh/discussions)
 4. **Rule/script**: Share on Slack or create GitHub issue
 

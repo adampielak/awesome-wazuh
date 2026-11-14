@@ -98,4 +98,4 @@ Curated links to map Wazuh to compliance requirements and regulatory frameworks.
 ---
 
 **Last updated**: February 2, 2026
-**TTlab® Compliance Support**: franco.tampieri@ttlab.it | [ttlab.it](https://ttlab.it/)
+**Questions and corrections**: [GitHub issues](https://github.com/adampielak/awesome-wazuh/issues)

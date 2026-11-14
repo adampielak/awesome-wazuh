@@ -223,4 +223,4 @@ Reference and supplementary content. These are NOT primary navigation - they sup
 **Last Updated**: February 2, 2026
 **Version**: 2.0 (refactored to pure awesome-* format)
 **Status**: Active Curation
-**Curator**: Franco Tampieri (TTlab® - Security & DevOps)
+**Maintainer**: Adam Pielak (tick@wazuh.blog), original curator Franco Tampieri (TTlab)

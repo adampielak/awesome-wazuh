@@ -1,184 +1,70 @@
-# Contributing to Awesome Wazuh
+# Contribution Guidelines
 
-We appreciate your interest in contributing to **Awesome Wazuh**! This document provides guidelines to maintain quality and consistency in the list.
+Thank you for helping to improve this list. Please read these guidelines before you open a pull request.
 
-## ✅ Before Contributing
+## Inclusion Criteria
 
-1. **Verify all links are accessible** - Test URLs before submitting
-2. **Check for duplicates** - Ensure the resource isn't already listed
-3. **Follow the format** - Maintain consistency with existing entries
-4. **Provide context** - Add a brief description of the resource's value
-5. **Ensure relevance** - Resources must be directly related to Wazuh
+An entry is accepted when it:
 
-## 📋 Types of Contribution
+- Is directly related to Wazuh (manager, agent, indexer, dashboard, rules, integrations, operations).
+- Works and is documented: a README that explains what it does and how to use it.
+- Is maintained. Archived repositories and dead links are not listed in the main list.
+- Is not a duplicate of an existing entry.
+- Is free to use. Commercial products are accepted only with a substantial free or open source edition.
 
-### Adding Resources
-- Official documentation or blog posts
-- Community guides and tutorials
-- Tools and integrations
-- Training courses or certifications
-- Open-source projects
+The daily update applies the same rules automatically to GitHub repositories:
 
-**Template:**
+- `wazuh` in the name or description (a `wazuh` topic alone is not enough),
+- at least 10 stars,
+- a push in the last 365 days,
+- not a fork, not archived,
+- a usable English description (not a list of tags, not in another language),
+- not offensive tooling (exploits, loaders, evasion), unless it is detection content.
+
+Repositories of the official `wazuh` organization are curated by hand.
+
+## Entry Format
+
 ```markdown
-- **[Resource Title](https://resource-link)** - Brief description explaining the value
-  - Optional: Skill level (Beginner/Intermediate/Advanced)
-  - Optional: Type (Guide/Tool/Integration/etc.)
+- 🟡 [Name](https://link) - Description.
 ```
 
-### Improving Existing Content
-- Fixing broken links
-- Updating obsolete information
-- Clarifying descriptions
-- Adding missing context
+- 🟢 for official Wazuh resources, 🟡 for community resources.
+- The link and the description are separated by ` - `.
+- The description starts with an uppercase letter and ends with a period.
+- Keep it to one sentence. Say what the resource does, not how good it is.
+- Use the correct names: Wazuh, OpenSearch, Kubernetes, Terraform, Ansible, GitHub.
+- Add new entries at the bottom of the matching section.
 
-### Adding Test Environments
-- Docker Compose files
-- Terraform/OpenTofu modules
-- Ansible playbooks
-- Other Infrastructure-as-Code
+## How to Contribute
 
-## 🔍 Quality Standards
+1. Fork the repository and create a branch: `git checkout -b add/resource-name`.
+2. Add the entry in the right section of `README.md`.
+3. Check the list: `bunx awesome-lint README.md`.
+4. Open a pull request titled `Add Name of Resource`. In the description, say why the resource belongs on the list.
 
-### Link Verification
-- ✅ Link must be accessible and return HTTP 200
-- ✅ Link must point directly to the resource (no redirects if possible)
-- ✅ For PDFs: verify the file is not corrupted
-- ✅ For GitHub: verify the repo is active and maintained
+One pull request per entry, unless the entries are closely related.
 
-### Description Quality
-- ✅ Clear and concise (maximum 1-2 sentences)
-- ✅ Explains the value for Wazuh professionals
-- ✅ No marketing fluff or excessive hype
-- ✅ Accurately represents the resource
+## Removing or Correcting an Entry
 
-### Organization
-- ✅ Placed in the correct category
-- ✅ Listed in logical order within the category
-- ✅ Formatting consistent with neighbors
+- Broken link, outdated description, wrong section: open a pull request with the fix or an [issue](https://github.com/adampielak/awesome-wazuh/issues).
+- An entry that the daily update keeps adding but should not be on the list: add `owner/repo` (or just `owner`) to [`data/excluded.txt`](data/excluded.txt) in a pull request, with a short reason as a `#` comment.
+- Archived or deleted repositories are moved to [ARCHIVED.md](ARCHIVED.md) automatically.
 
-## 🚀 How to Contribute
+## Daily Update
 
-### Step 1: Fork & Clone
-```bash
-git clone https://github.com/YOUR-USERNAME/awesome-wazuh.git
-cd awesome-wazuh
-git checkout -b add/your-resource-name
-```
+[`scripts/update.ts`](scripts/update.ts) runs once a day. It:
 
-### Step 2: Make Your Changes
-- Edit the appropriate `.md` file
-- Follow the format specified above
-- Test all links you're adding
+1. Checks every listed GitHub repository: archived or deleted ones go to `ARCHIVED.md`, renamed ones get the new URL.
+2. Searches GitHub for new repositories that meet the inclusion criteria and appends them to the matching section.
+3. Rebuilds the [Ambassador Blogs](README.md#ambassador-blogs) section from the official [Wazuh Ambassadors newsroom](https://wazuh.com/newsroom/source/ambassadors/).
 
-### Step 3: Verify Everything
-```bash
-# Check link validity (if you have a link checker)
-# Review formatting consistency
-# Test markdown rendering locally
-```
+The result is checked with `awesome-lint` before it is committed. Automatic additions are reviewed by hand and moved or reworded when needed, so a pull request that improves an automatic entry is welcome.
 
-### Step 4: Commit & Push
-```bash
-git add .
-git commit -m "Add: [Resource Title] to [Category]"
-git push origin add/your-resource-name
-```
+## Code of Conduct
 
-### Step 5: Submit a Pull Request
-- **Title**: `Add [Resource] to [Category]` or `Fix [Issue]`
-- **Description**:
-  - What resource you're adding and why
-  - Link verification status
-  - Any relevant context
+Be respectful and constructive. Report problems to the maintainer.
 
-## ⚠️ What We Don't Accept
+## Maintainer
 
-❌ **Paid services** (unless there's substantial free tier)
-❌ **Dead or inaccessible links**
-❌ **Duplicates** of existing resources
-❌ **Self-promotion** without community validation
-❌ **Outdated information** without updates
-❌ **Commercial content** disguised as guides
-❌ **Harmful or malicious resources**
-
-## 🏷️ Commit Message Format
-
-Follow conventional commits:
-```
-add: [Resource] to [Category]
-fix: [Problem description]
-improve: [Improvement description]
-docs: [Documentation update]
-```
-
-## 📝 Code of Conduct
-
-- Be respectful and professional
-- Assume good intention
-- Provide constructive feedback
-- No harassment, discrimination, or hate speech
-- Report violations to Franco Tampieri (franco.tampieri@ttlab.it)
-
-## 🎓 Category Guide
-
-### Deployment & Infrastructure
-Infrastructure-as-Code, container orchestration, cloud deployment
-
-### Compliance & Governance
-Regulatory frameworks, compliance guides, standards mapping
-
-### Integrations & Extensions
-Third-party services, plugins, custom extensions
-
-### Detection & Response
-Rules, detection logic, response automation
-
-### Learning & Training
-Official courses, community guides, certifications
-
-### Community & Support
-Forums, channels, professional services
-
-## 🔗 Link Format
-
-**Standard:**
-```markdown
-- **[Title](URL)** - Description
-```
-
-**With metadata:**
-```markdown
-- **[Title](URL)** - Description
-  - Level: Beginner/Intermediate/Advanced
-  - Type: Category/Guide/Tool
-  - Updated: YYYY-MM-DD
-```
-
-## 📊 Verification Checklist
-
-Before submitting your PR, verify:
-
-- [ ] All links are accessible (tested in browser)
-- [ ] Resource is relevant to Wazuh
-- [ ] No duplicates exist
-- [ ] Formatting matches existing entries
-- [ ] Description is clear and concise
-- [ ] Placed in correct category
-- [ ] Commit message follows format
-- [ ] No spelling or grammar errors
-
-## ❓ Questions?
-
-- **Slack**: Contact the Wazuh community
-- **GitHub Issues**: Create a discussion issue
-- **Email**: franco.tampieri@ttlab.it
-
-## 🙏 Thank You!
-
-Your contributions help make Awesome Wazuh the best resource for the community. Every addition counts!
-
----
-
-**Last Updated**: January 31, 2026
-**Maintainer**: Franco Tampieri (@francotampieri)
+Adam Pielak ([@adampielak](https://github.com/adampielak)), tick@wazuh.blog.
