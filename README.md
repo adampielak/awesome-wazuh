@@ -328,12 +328,15 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Aditya Jaishi](https://medium.com/@jaishiaditya2000) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Ahmed Abbes](https://medium.com/@ahmedabbes832) - Medium profile, 4 articles featured in the Wazuh Ambassadors newsroom.
 - [Ahmed Abdelrazek](https://medium.com/@ahmed.abdelrazek.1) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
+- [Albin Haliti](https://medium.com/@albinhaliti6) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Anmol Vats](https://medium.com/@anmolvats220703) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Arasy Dafa Sulistya Kurniawan](https://medium.com/@arasydafa) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
+- [Aravind Raja](https://medium.com/@aravindraja150) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Arbnor Mustafa](https://blog.sentry.security/) - Blog at blog.sentry.security, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Arbnor Mustafa](https://medium.com/@arbnormustafa) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Baptiste Leterrier](https://ghost.baptiste-leterrier.com/) - Blog at ghost.baptiste-leterrier.com, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Bayu Sangkaya](https://medium.com/@bayusangkaya) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
+- [Benyamin Mahdikhani](https://medium.com/@benyaminmahdikhany) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Bruno Castel](https://medium.com/@bcastel) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Candra Utama](https://medium.com/@utama.candra) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Chinaza Emmanuela Obidike](https://medium.com/@chinazaObidike) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
@@ -360,7 +363,7 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Furkan Çağlar Çelik](https://caglar-celik.com/) - Blog at caglar-celik.com, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Hafiz Javid](https://trustscan.dev/) - Blog at trustscan.dev, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Hafiz Javid](https://wazuh.blogspot.com/) - Blog at wazuh.blogspot.com, 1 article featured in the Wazuh Ambassadors newsroom.
-- [Hamza Jameel](https://medium.com/@dev.hamzaj) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
+- [Hamza Jameel](https://medium.com/@dev.hamzaj) - Medium profile, 4 articles featured in the Wazuh Ambassadors newsroom.
 - [Hanif Kurniawan](https://medium.com/@kurniawanhanif63) - Medium profile, 7 articles featured in the Wazuh Ambassadors newsroom.
 - [Hazem Mohammed](https://medium.com/@hmohamed200) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Ikem Michael](https://medium.com/@ikem.michael1000) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
@@ -370,7 +373,7 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Ismail Hakim](https://medium.com/@ismail-hakim) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Jakub Zielinski](https://medium.com/@cylenth) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [James Nyamu](https://medium.com/@washira09) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
-- [Jędrzej Boguszyński](https://jedrzejboguszynski.pl/) - Blog at jedrzejboguszynski.pl, 8 articles featured in the Wazuh Ambassadors newsroom.
+- [Jędrzej Boguszyński](https://jedrzejboguszynski.pl/) - Blog at jedrzejboguszynski.pl, 9 articles featured in the Wazuh Ambassadors newsroom.
 - [Joel Yang](https://medium.com/@yzw.joe) - Medium profile, 4 articles featured in the Wazuh Ambassadors newsroom.
 - [John Lee](https://medium.com/@johnsunglee) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Jonathan Daniels](https://medium.com/@masjter) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
@@ -388,7 +391,7 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Luis López](https://medium.com/@llopez870407) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Marco Teixeira](https://medium.com/@mjvmst) - Medium profile, 5 articles featured in the Wazuh Ambassadors newsroom.
 - [Maryam Liaqat](https://medium.com/@maryamliaqat4583) - Medium profile, 9 articles featured in the Wazuh Ambassadors newsroom.
-- [Mattias Hemmingsson](https://lifeandshell.com/) - Blog at lifeandshell.com, 1 article featured in the Wazuh Ambassadors newsroom.
+- [Mattias Hemmingsson](https://lifeandshell.com/) - Blog at lifeandshell.com, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Mércio Manjor](https://medium.com/@mercio.manjor) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Michael Muenz](https://wazuh-blog.max-it.de/) - Blog at wazuh-blog.max-it.de, 15 articles featured in the Wazuh Ambassadors newsroom.
 - [Michał Bednarczyk](https://medium.com/@michb2000.mb) - Medium profile, 10 articles featured in the Wazuh Ambassadors newsroom.
@@ -398,8 +401,8 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Muhammad Akmalul Hakim Samsuri](https://medium.com/@akimakmal88) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Muhammad Ali](https://medium.com/@alijan262000) - Medium profile, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Muhammad Jawwad](https://medium.com/@muhammadjawwadsiddiquii) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
-- [Muhammad Moiz Uddin Rafay](https://medium.com/@moizuddinrafay) - Medium profile, 11 articles featured in the Wazuh Ambassadors newsroom.
-- [Muhammad Shoaib Shafqat](https://medium.com/@mshoaibshafqat2) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
+- [Muhammad Moiz Uddin Rafay](https://medium.com/@moizuddinrafay) - Medium profile, 12 articles featured in the Wazuh Ambassadors newsroom.
+- [Muhammad Shoaib Shafqat](https://medium.com/@mshoaibshafqat2) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Muhammad Usman](https://medium.com/@usmannazir5503) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Mulayam Yadav](https://certbar.com/) - Blog at certbar.com, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Muneer Baig](https://medium.com/@muneer.baig) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
@@ -421,13 +424,14 @@ Blogs and Medium profiles of ambassadors, rebuilt daily from the newsroom, plus 
 - [Syed Golam Abid](https://docs.alsechemist.com/) - Blog at docs.alsechemist.com, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Syed Jawad Ali Shah](https://medium.com/@syedjawad07) - Medium profile, 15 articles featured in the Wazuh Ambassadors newsroom.
 - [Thierry Rolland](https://medium.com/@thierrymballa) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
-- [Vigan Bytyqi](https://samsploit1.github.io/) - Blog at samsploit1.github.io, 1 article featured in the Wazuh Ambassadors newsroom.
+- [Vigan Bytyqi](https://samsploit1.github.io/) - Blog at samsploit1.github.io, 3 articles featured in the Wazuh Ambassadors newsroom.
 - [Vigan Bytyqi](https://medium.com/@samsploit) - Medium profile, 2 articles featured in the Wazuh Ambassadors newsroom.
 - [Vigan Bytyqi](https://medium.com/@vigan_93792) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Vladimir Jerbić](https://medium.com/@vjerbic) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Wendell Nyarko](https://medium.com/@wendell916) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Wenupa De Silva](https://medium.com/@Wen19z) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Wilklins Nyatteng](https://medium.com/@wilklins) - Medium profile, 5 articles featured in the Wazuh Ambassadors newsroom.
+- [William Weber](https://medium.com/@wweber993) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Xavier Martens](https://xameco.be/) - Blog at xameco.be, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Yannick Siewe](https://medium.com/@yannicksiewe) - Medium profile, 1 article featured in the Wazuh Ambassadors newsroom.
 - [Yash Patel](https://medium.com/@yashpateld22d) - Medium profile, 6 articles featured in the Wazuh Ambassadors newsroom.
