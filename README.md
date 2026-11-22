@@ -234,6 +234,7 @@ Then reload: `systemctl daemon-reload`. If the indexer still needs extra time to
 - 🟡 [mrtc0/wazuh-ruby-client](https://github.com/mrtc0/wazuh-ruby-client) - Wazuh API client for Ruby.
 - 🟡 [zbalkan/rulevis](https://github.com/zbalkan/rulevis) - Renders a Wazuh ruleset as an interactive force-directed graph.
 - 🟡 [zbalkan/wazuhevtx](https://github.com/zbalkan/wazuhevtx) - A Python tool that parses EVTX files and converts them into JSON formatted logs mimicking Wazuh agent behavior in version 4.x.
+- 🟡 [xrisbarney/Wazuh-alert-manager](https://github.com/xrisbarney/Wazuh-alert-manager) - Wazuh dashboard plugin that adds alert triage (status, assignee, comments), case management with evidence tracking and attack-path graphs, automation rules and reporting on top of Wazuh 4.12 to 4.14, keeping the native alert indices read-only.
 
 ### AI & MCP
 
