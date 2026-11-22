@@ -118,6 +118,7 @@ General-purpose community rule collections.
 - 🟡 [heraclescap/sigwaz-cli](https://github.com/heraclescap/sigwaz-cli) - Convert Sigma detection rules to production-ready Wazuh XML. CLI tool with batch processing, ZIP input, field mapping, and config file support.
 - 🟡 [RasheedFarhat/DaC-Pipeline](https://github.com/RasheedFarhat/DaC-Pipeline) - Automated Detection-as-Code (DaC) CI/CD pipeline for validating and programmatically deploying SIEM detection rules via GitHub Actions and the Wazuh API.
 - 🟡 [mym0us3r/COPY-FAIL-Detection-with-Wazuh-4.14.4](https://github.com/k1shlabs/COPY-FAIL-Detection-with-Wazuh-4.14.4) - Detection of the COPY FAIL Linux local privilege escalation (authencesn page cache write) with Wazuh 4.14.4.
+- 🟡 [SamsonIdowu/DaC](https://github.com/SamsonIdowu/DaC) - GitHub Actions template that version-controls custom rules and decoders, rejects pull requests that reuse an existing rule ID, and deploys merged rulesets to the Wazuh manager over SSH.
 
 ### Vendor-Specific Rules
 
