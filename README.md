@@ -304,6 +304,7 @@ Home labs and SOC lab builds with Wazuh.
 - 🟡 [Zep11/Home-SOC-Lab-Wazuh](https://github.com/Zep11/Home-SOC-Lab-Wazuh) - Home SOC lab for detection engineering, log analysis and threat hunting with Wazuh, Sysmon and MITRE ATT&CK.
 - 🟡 [tofan0810/Wazuh-SOC-lab](https://github.com/tofan0810/Wazuh-SOC-lab) - SOC and SOAR lab with Wazuh 4.14, Suricata, Sysmon, n8n, Telegram ChatOps and Jira Cloud.
 - 🟡 [pho5nix/Red-Threat-Redemption-SIEM](https://github.com/pho5nix/Red-Threat-Redemption-SIEM) - Debian 13 SIEM build with Elasticsearch, Kibana, Filebeat, Vector, Wazuh manager, Zeek and pfSense/Suricata integration.
+- 🟡 [manishrawat21/soc-automation-lab](https://github.com/manishrawat21/soc-automation-lab) - Documented SOC automation workflow using Wazuh, N8N, Caldera, and Velociraptor.
 
 ### General
 
