@@ -21,12 +21,16 @@ examples/
 ### Quick Start
 ```bash
 cd examples/docker-compose
+# Set your own passwords first; .env is git-ignored
+printf 'INDEXER_PASSWORD=%s\nWAZUH_API_PASSWORD=%s\n' '<indexer-password>' '<api-password>' > .env
 docker-compose up -d
 ```
 
+Use 12 to 64 characters with at least one uppercase letter, one lowercase letter, one digit and one of `. + -`. That satisfies the [password rules](https://documentation.wazuh.com/current/user-manual/user-administration/password-management.html) of Wazuh 4.x and 5.0. Compose refuses to start while either variable is missing.
+
 ### Access
 - **Dashboard**: https://localhost:443
-- **Credentials**: admin / SecurePassword123! (change in production)
+- **Credentials**: `admin` and the `INDEXER_PASSWORD` from `.env`
 - **API**: https://localhost:55000
 
 ### Features
