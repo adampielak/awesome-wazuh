@@ -274,7 +274,9 @@ const HOSTNAME = /^[a-z0-9-]+(\.[a-z0-9-]+)+$/;
 
 async function ambassadorBlogs(): Promise<string[] | null> {
   const ua = { "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/130 Safari/537.36" };
-  const first = await fetch("https://wazuh.com/newsroom/source/ambassadors/", { headers: ua });
+  // CloudFront caches this page per Accept-Encoding for days, with the WordPress nonce
+  // inside; a stale nonce makes admin-ajax return 403. A unique query string forces a miss.
+  const first = await fetch(`https://wazuh.com/newsroom/source/ambassadors/?nocache=${Date.now()}`, { headers: ua });
   if (!first.ok) { log(`ambassadors: newsroom returned ${first.status}`); return null; }
   const html0 = await first.text();
   const nonce = html0.match(/"nonce":"([a-f0-9]+)"/)?.[1];
@@ -288,7 +290,10 @@ async function ambassadorBlogs(): Promise<string[] | null> {
     });
     const res = await fetch("https://wazuh.com/wp-admin/admin-ajax.php", { method: "POST", headers: ua, body });
     const t = await res.text();
-    if (!res.ok || !t.includes("post-card-link")) break;
+    if (!res.ok || !t.includes("post-card-link")) {
+      if (!res.ok) log(`ambassadors: admin-ajax page ${a} returned ${res.status}`);
+      break;
+    }
     pages.push(t);
     await sleep(700);
   }
