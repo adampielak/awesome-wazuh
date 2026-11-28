@@ -52,6 +52,7 @@ Documentation, deployment code, rules, integrations, tools and community knowled
 - 🟢 [API Reference](https://documentation.wazuh.com/current/user-manual/api/reference.html) - REST API endpoints.
 - 🟢 [Wazuh Blog](https://wazuh.com/blog/) - Weekly technical articles from the Wazuh team.
 - 🟢 [Release Notes](https://documentation.wazuh.com/current/release-notes/index.html) - Version history and changelog.
+- 🟢 [wazuh-documentation](https://github.com/wazuh/wazuh-documentation) - Sphinx source of the official documentation, with a branch for each Wazuh release.
 
 ## Getting Started
 
@@ -92,6 +93,7 @@ Step-by-step setup walkthroughs for Wazuh installation, configuration, and opera
 - 🟢 [Official Ansible Guide](https://documentation.wazuh.com/current/deployment-options/deploying-with-ansible/index.html) - Multi-host deployment automation.
 - 🟢 [wazuh-ansible](https://github.com/wazuh/wazuh-ansible) - Ansible roles and playbooks (use release branches for production).
 - 🟡 [aleemladha/ludus_wazuh_agent](https://github.com/aleemladha/ludus_wazuh_agent) - Ansible role that deploys Wazuh agents to Windows, Debian and Ubuntu hosts on Ludus ranges.
+- 🟢 [wazuh-puppet](https://github.com/wazuh/wazuh-puppet) - Puppet module that installs and configures the Wazuh manager and agent.
 
 ### Virtual Machines
 
@@ -175,6 +177,7 @@ Connect Wazuh with external platforms for alerting, ticketing, threat intelligen
 - 🟡 [Shuffle SOAR](https://shuffler.io/) - Open source SOAR with Wazuh support.
 - 🟢 [Shuffle + Teams Integration](https://wazuh.com/blog/integrating-wazuh-with-microsoft-teams-using-shuffle/) - SOAR-based Teams alerting.
 - 🟡 [Automated Threat Detection & Response (Medium)](https://medium.com/@naseefhussain83/automated-threat-detection-response-using-wazuh-shuffle-777bee8370fc) - Wazuh and Shuffle threat response automation.
+- 🟡 [socfortress/CoPilot](https://github.com/socfortress/CoPilot) - Open source SOC platform, in beta, that manages Wazuh, Graylog, Velociraptor and Grafana from one interface.
 
 ### Custom Integrations
 
@@ -236,6 +239,7 @@ Then reload: `systemctl daemon-reload`. If the indexer still needs extra time to
 - 🟡 [zbalkan/rulevis](https://github.com/zbalkan/rulevis) - Renders a Wazuh ruleset as an interactive force-directed graph.
 - 🟡 [zbalkan/wazuhevtx](https://github.com/zbalkan/wazuhevtx) - A Python tool that parses EVTX files and converts them into JSON formatted logs mimicking Wazuh agent behavior in version 4.x.
 - 🟡 [xrisbarney/Wazuh-alert-manager](https://github.com/xrisbarney/Wazuh-alert-manager) - Wazuh dashboard plugin that adds alert triage (status, assignee, comments), case management with evidence tracking and attack-path graphs, automation rules and reporting on top of Wazuh 4.12 to 4.14, keeping the native alert indices read-only.
+- 🟢 [wazuh-dashboard-plugins](https://github.com/wazuh/wazuh-dashboard-plugins) - Source of the Wazuh plugins for the Wazuh dashboard.
 
 ### AI & MCP
 
