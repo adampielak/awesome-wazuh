@@ -49,8 +49,12 @@ Get started with Awesome Wazuh in 5 minutes.
 git clone https://github.com/adampielak/awesome-wazuh.git
 cd awesome-wazuh
 
-# 2. Start the stack
+# 2. Set your own passwords (12 to 64 characters, upper and lower case,
+#    a digit and one of . + -); .env is git-ignored
 cd examples/docker-compose
+printf 'INDEXER_PASSWORD=%s\nWAZUH_API_PASSWORD=%s\n' '<indexer-password>' '<api-password>' > .env
+
+# Start the stack
 docker-compose up
 
 # 3. Wait for containers to start (~2-3 min)
@@ -59,7 +63,7 @@ docker-compose up
 # 4. Access the dashboard
 # URL: https://localhost:443
 # Username: admin
-# Password: SecurePassword123!
+# Password: the INDEXER_PASSWORD you set in .env
 ```
 
 ### What's Running?
